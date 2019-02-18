@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Anmeldung" max_length="40" name="x_183655_schulungs_anmeldung" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Schulung" mandatory="true" max_length="32" name="schulung" reference="x_183655_schulungs_schulung" reference_qual="datum&gt;=javascript:gs.beginningOfToday()^buchbar=true^EQ" reference_qual_condition="datum&gt;=javascript:gs.beginningOfToday()^buchbar=true^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Teilnehmer" max_length="32" name="teilnehmer" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+    </element>
+</database>

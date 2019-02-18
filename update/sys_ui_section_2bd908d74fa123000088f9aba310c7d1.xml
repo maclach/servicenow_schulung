@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="2bd908d74fa123000088f9aba310c7d1" sys_domain="global" table="x_183655_schulungs_schulung" version="3" view="Teilnehmer">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>b62ab8294ffd23000088f9aba310c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>3e2ab8294ffd23000088f9aba310c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>datum</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>be2ab8294ffd23000088f9aba310c7fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ort</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>322ab8294ffd23000088f9aba310c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>b22ab8294ffd23000088f9aba310c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>beschreibung</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>362ab8294ffd23000088f9aba310c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>b62ab8294ffd23000088f9aba310c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>maximale_teilnehmerzahl</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>3a2ab8294ffd23000088f9aba310c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>ba2ab8294ffd23000088f9aba310c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aktuelle_teilnehmerzahl</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-15 14:31:03</sys_created_on>
+            <sys_id>3e2ab8294ffd23000088f9aba310c7fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_183655_schulungs_schulung" sys_domain="global" view="2bd9c4d74fa123000088f9aba310c74c">2bd908d74fa123000088f9aba310c7d1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-15 14:31:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_183655_schulungs_schulung</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-11-08 11:13:42</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bd908d74fa123000088f9aba310c7d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_183655_schulungs_schulung</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Schulungsmanagment Musterlösung" source="x_183655_schulungs">4adf1bc34f2123000088f9aba310c78a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Schulungsmanagment Musterlösung">4adf1bc34f2123000088f9aba310c78a</sys_scope>
+            <sys_update_name>sys_ui_section_2bd908d74fa123000088f9aba310c7d1</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-11-08 11:13:42</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Teilnehmer" name="Teilnehmer">2bd9c4d74fa123000088f9aba310c74c</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

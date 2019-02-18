@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Teilnehmer</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-08 11:13:42</sys_created_on>
+        <sys_id>2bd9c4d74fa123000088f9aba310c74c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teilnehmer</sys_name>
+        <sys_package display_value="Schulungsmanagment Musterlösung" source="x_183655_schulungs">4adf1bc34f2123000088f9aba310c78a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Schulungsmanagment Musterlösung">4adf1bc34f2123000088f9aba310c78a</sys_scope>
+        <sys_update_name>sys_ui_view_2bd9c4d74fa123000088f9aba310c74c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-08 11:13:42</sys_updated_on>
+        <title>Teilnehmer</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

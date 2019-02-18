@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_183655_schulungs.SchulungAPI</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>SchulungAPI</name>
+        <script><![CDATA[var SchulungAPI = Class.create();
+SchulungAPI.prototype = {
+	initialize: function() {
+	},
+
+	teilnehmerHinzufuegen: function(anmeldungSysId) {
+
+		gs.info('teilnehmerHinzufuegen ' + anmeldungSysId);
+
+		var anmeldungGR = new GlideRecord('x_183655_schulungs_anmeldung');
+		anmeldungGR.get(anmeldungSysId);
+
+		gs.info('anmeldungGR.sys_id ' + anmeldungGR.sys_id);
+
+		var schulungGR = new GlideRecord('x_183655_schulungs_schulung');
+		schulungGR.get(anmeldungGR.schulung);
+
+		gs.info('schulungGR.sys_id ' + schulungGR.sys_id);
+		gs.info('schulungGR.aktuelle_teilnehmerzahl ' + schulungGR.aktuelle_teilnehmerzahl);
+		gs.info('schulungGR.maximale_teilnehmerzahl ' + schulungGR.maximale_teilnehmerzahl);
+
+		if ( schulungGR.aktuelle_teilnehmerzahl < schulungGR.maximale_teilnehmerzahl ) {
+			schulungGR.aktuelle_teilnehmerzahl++;
+
+			schulungGR.update();
+
+			return true;
+		} else {
+			return false;
+		}
+
+	},
+
+	teilnehmerEntfernen: function(anmeldungSysId) {
+
+		gs.info('teilnehmerEntfernen ' + anmeldungSysId);
+
+		var anmeldungGR = new GlideRecord('x_183655_schulungs_anmeldung');
+		anmeldungGR.get(anmeldungSysId);
+
+		gs.info('anmeldungGR.sys_id ' + anmeldungGR.sys_id);
+
+		var schulungGR = new GlideRecord('x_183655_schulungs_schulung');
+		schulungGR.get(anmeldungGR.schulung);
+
+		gs.info('schulungGR.sys_id ' + schulungGR.sys_id);
+		gs.info('schulungGR.aktuelle_teilnehmerzahl ' + schulungGR.aktuelle_teilnehmerzahl);
+		gs.info('schulungGR.maximale_teilnehmerzahl ' + schulungGR.maximale_teilnehmerzahl);
+
+
+		schulungGR.aktuelle_teilnehmerzahl--;
+		
+		schulungGR.buchbar = true;
+		
+		schulungGR.update();
+
+	},
+
+	type: 'SchulungAPI'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-08 11:56:06</sys_created_on>
+        <sys_id>966290df4fa123000088f9aba310c7f5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>SchulungAPI</sys_name>
+        <sys_package display_value="Schulungsmanagment Musterlösung" source="x_183655_schulungs">4adf1bc34f2123000088f9aba310c78a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Schulungsmanagment Musterlösung">4adf1bc34f2123000088f9aba310c78a</sys_scope>
+        <sys_update_name>sys_script_include_966290df4fa123000088f9aba310c7f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-12-11 13:26:36</sys_updated_on>
+    </sys_script_include>
+</record_update>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Schulung" max_length="40" name="x_183655_schulungs_schulung" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="0" label="Aktuelle Teilnehmerzahl" max_length="40" name="aktuelle_teilnehmerzahl" read_only="true" type="integer"/>
+        <element label="Beschreibung" max_length="400" name="beschreibung" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="true" label="Buchbar" max_length="40" name="buchbar" read_only="true" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Datum" mandatory="true" max_length="40" name="datum" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Maximale Teilnehmerzahl" mandatory="true" max_length="40" name="maximale_teilnehmerzahl" type="integer"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Ort" mandatory="true" max_length="40" name="ort" type="string"/>
+    </element>
+</database>
